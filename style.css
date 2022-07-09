@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -39,5 +40,11 @@ section {
 
 .top-banner {
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-position: right;
     background-repeat: no-repeat;
 }
