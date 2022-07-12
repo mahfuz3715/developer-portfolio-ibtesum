@@ -8,6 +8,14 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
 .name {
     color: skyblue;
 }
@@ -53,6 +61,26 @@ button {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 5%;
+    padding: 50px;
     box-shadow: 10px 10px 10px gray;
+    border-radius: 2%;
+    border-left: 7px solid blue;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
