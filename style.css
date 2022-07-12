@@ -16,13 +16,13 @@ button {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
 .half {
     width: 50%;
-    padding: 5%;
+    padding: 2%;
 }
 
 .half img {
@@ -47,4 +47,12 @@ section {
     background-image: url(images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+
+.experience-container {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 10px gray;
 }
